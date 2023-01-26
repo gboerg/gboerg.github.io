@@ -7,6 +7,7 @@
 html {
     scroll-snap-type: y mandatory;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -64,6 +65,16 @@ nav {
     font-size: 20px;
     text-align: center;
 }
+
+.fasd {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 214px;
+    font-size: 20px;
+}
+
+
 .nav-item {
     position: relative;
     top: 12px;
@@ -81,20 +92,14 @@ nav:hover {
 
 a{
     position: relative;
-    color: rgb(85, 83, 83);
+    color: white;
     font-size: 14px;
     display: table;
     width: 150px;
     padding: 10px;
 }
-section {
-    padding-left: 10%;
-}
 
-.head {
-    text-align: center;
-    padding-top: 5rem;
-}
+
 
 #s1 {
 
@@ -104,6 +109,21 @@ section {
     overscroll-behavior-y: contain;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
+}
+
+.innerdivs1 {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    border-color: aquamarine;
+    border: 40px;
+    background-color: aqua;
+
+}
+
+.insec1 {
+    padding: 0.3rem;
+
 }
 
 #s2 {

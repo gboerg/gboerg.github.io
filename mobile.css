@@ -7,6 +7,21 @@
     nav:hover {
         width: 20%;
     }
+
+    .head {
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .innerdivs1 {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        border-color: aquamarine;
+        border: 40px;
+        background-color: aqua;
+    
+    }
     } 
 
 
@@ -21,6 +36,21 @@
 
         width: 380px;
     }
+
+    .head {
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .innerdivs1 {
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        border-color: aquamarine;
+        border: 40px;
+        background-color: aqua;
+    
+    
     } 
 
-    
+}
