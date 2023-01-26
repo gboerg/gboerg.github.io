@@ -30,10 +30,11 @@ nav {
     width: 10%;
     left: 0;
     right: 0;
-    background: white;
+    background: #1a1a1a; 
     overflow: hidden;
     transition: width 0.2s linear;
     box-shadow: 0 20px 35px rgba(red, green, blue, alpha);
+    color: azure;
 }
 
 .logo{
@@ -83,7 +84,7 @@ a{
     color: rgb(85, 83, 83);
     font-size: 14px;
     display: table;
-    width: 300px;
+    width: 150px;
     padding: 10px;
 }
 section {
