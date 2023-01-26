@@ -1,9 +1,12 @@
 
 ::-webkit-scrollbar {
 
-    display: none;
+    /*display: none;*/
 }
 
+html {
+    scroll-snap-type: y mandatory;
+}
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +24,7 @@
 nav {
     display: flex;
     float: left;
-    height: 300vh;
+    height: 400vh;
     top: 0;
     bottom: 0;
     width: 10%;
@@ -87,18 +90,51 @@ section {
     padding-left: 10%;
 }
 
+.head {
+    text-align: center;
+    padding-top: 5rem;
+}
+
 #s1 {
+
     height: 100vh;
     background-color: black;
     color: white;
-    
-
+    overscroll-behavior-y: contain;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
 }
 
 #s2 {
+    overscroll-behavior-y: contain;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
     height: 100vh;
     background-color: red;
     color: white;
-    
+}
+
+#s3 {
+    overscroll-behavior-y: contain;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#s4 {
+    overscroll-behavior-y: contain;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    background-color: red;
+    color: white;
+}
+
+
+
+footer {
+
 
 }
