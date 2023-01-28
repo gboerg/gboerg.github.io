@@ -1,8 +1,8 @@
 
 ::-webkit-scrollbar {
-
-    /*display: none;*/
+    display: none;    
 }
+
 
 html {
     scroll-snap-type: y mandatory;
@@ -66,12 +66,13 @@ nav {
     text-align: center;
 }
 
-.fasd {
+.fas {
     position: relative;
     width: 70px;
     height: 40px;
-    top: 214px;
+    top: 14px;
     font-size: 20px;
+    text-align: center;
 }
 
 
@@ -104,8 +105,6 @@ a{
 #s1 {
 
     height: 100vh;
-    background-color: black;
-    color: white;
     overscroll-behavior-y: contain;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
@@ -115,9 +114,7 @@ a{
     height: 50vh;
     display: flex;
     flex-direction: row;
-    border-color: aquamarine;
-    border: 40px;
-    background-color: aqua;
+
 
 }
 
@@ -131,8 +128,7 @@ a{
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
     height: 100vh;
-    background-color: red;
-    color: white;
+
 }
 
 #s3 {
@@ -140,8 +136,8 @@ a{
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
     height: 100vh;
-    background-color: black;
-    color: white;
+
+
 }
 
 #s4 {
@@ -149,8 +145,7 @@ a{
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
     height: 100vh;
-    background-color: red;
-    color: white;
+
 }
 
 

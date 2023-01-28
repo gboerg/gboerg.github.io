@@ -1,0 +1,51 @@
+
+
+input[type="radio"]:checked {
+    color: white;
+}
+
+
+input[type="radio"]{
+    display: none;
+}
+
+.glider {
+    position: absolute;
+    display: flex;
+    height: 54px;
+    width: 200px;
+}
+
+.menu {
+    position: absolute;
+    left: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}   
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 299px;
+
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 50px;
+
+    cursor: pointer;
+    transition: color 0.15s ease-in;
+}
+
+
+.tabs *{
+    z-index: 2;
+}
+
