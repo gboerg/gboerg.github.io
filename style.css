@@ -23,6 +23,7 @@ html {
 }
 
 nav {
+    position: sticky;
     display: flex;
     float: left;
     height: 400vh;
@@ -38,6 +39,11 @@ nav {
     color: azure;
 }
 
+nav .container ul li.active{
+    background-color: crimson;
+    transition: 0.3 ease background color;
+
+}
 /*.logo{
     text-align: center;
     display: flex;
@@ -149,8 +155,3 @@ a{
 }
 
 
-
-footer {
-
-
-}
