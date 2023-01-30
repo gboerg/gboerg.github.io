@@ -1,8 +1,14 @@
+/*Websettings*/
+/* */
+/* */
 
 ::-webkit-scrollbar {
     display: none;    
 }
 
+/*General Settings*/
+/* */
+/* */
 
 html {
     scroll-snap-type: y mandatory;
@@ -17,6 +23,10 @@ html {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+/*Navbar*/
+/* */
+/* */
 
 .container {
     position: fixed;
@@ -39,38 +49,11 @@ nav {
     color: azure;
 }
 
-nav .container ul li.active{
+nav div.container ul li a.active{
     background-color: crimson;
     transition: 0.3 ease background color;
 
 }
-/*.logo{
-    text-align: center;
-    display: flex;
-    transition: all 0.5s ease;
-    margin: 10px 0 0 10px;
-}
-.logo img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-}
-
-.logo span {
-    font-weight: bold;
-    padding: 15px;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-*/
-.fas {
-    position: relative;
-    width: 70px;
-    height: 40px;
-    top: 14px;
-    font-size: 20px;
-    text-align: center;
-}
 
 .fas {
     position: relative;
@@ -82,7 +65,7 @@ nav .container ul li.active{
 }
 
 
-.nav-item {
+.span-item {
     position: relative;
     top: 12px;
     margin-left: 10px;
@@ -105,13 +88,22 @@ a{
     width: 150px;
     padding: 10px;
 }
+/*Section 0 */
+/* */
+/* */
 
+#s0 {
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+}
 
+/*Section 1 */
+/* */
+/* */
 
 #s1 {
-
     height: 100vh;
-    overscroll-behavior-y: contain;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
 }
@@ -120,38 +112,40 @@ a{
     height: 50vh;
     display: flex;
     flex-direction: row;
-
-
 }
 
 .insec1 {
     padding: 0.3rem;
-
 }
+
+/*Section 2 */
+/* */
+/* */
 
 #s2 {
-    overscroll-behavior-y: contain;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
     height: 100vh;
-
 }
+
+/*Section 3 */
+/* */
+/* */
 
 #s3 {
-    overscroll-behavior-y: contain;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
     height: 100vh;
-
-
 }
 
+/*Section 4 */
+/* */
+/* */
+
 #s4 {
-    overscroll-behavior-y: contain;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
     height: 100vh;
-
 }
 
 
