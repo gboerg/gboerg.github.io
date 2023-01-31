@@ -36,7 +36,7 @@ nav {
     position: sticky;
     display: flex;
     float: left;
-    height: 400vh;
+    height: 500vh;
     top: 0;
     bottom: 0;
     width: 10%;
@@ -49,10 +49,27 @@ nav {
     color: azure;
 }
 
-nav div.container ul li a.active{
+
+
+.nav-item1.active .nav-link{
     background-color: crimson;
     transition: 0.3 ease background color;
-
+}
+.nav-item2.active .nav-link{
+    background-color: crimson;
+    transition: 0.3 ease background color;
+}
+.nav-item3.active .nav-link{
+    background-color: crimson;
+    transition: 0.3 ease background color;
+}
+.nav-item4.active .nav-link{
+    background-color: crimson;
+    transition: 0.3 ease background color;
+}
+.nav-item5.active .nav-link{
+    background-color: crimson;
+    transition: 0.3 ease background color;
 }
 
 .fas {
@@ -67,7 +84,6 @@ nav div.container ul li a.active{
 
 .span-item {
     position: relative;
-    top: 12px;
     margin-left: 10px;
 }
 
@@ -88,24 +104,12 @@ a{
     width: 150px;
     padding: 10px;
 }
-/*Section 0 */
-/* */
-/* */
 
-#s0 {
+section {
     height: 100vh;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
-}
 
-/*Section 1 */
-/* */
-/* */
-
-#s1 {
-    height: 100vh;
-    scroll-snap-align: start;
-    scroll-snap-type: y mandatory;
 }
 
 .innerdivs1 {
@@ -118,34 +122,7 @@ a{
     padding: 0.3rem;
 }
 
-/*Section 2 */
-/* */
-/* */
 
-#s2 {
-    scroll-snap-align: start;
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-}
 
-/*Section 3 */
-/* */
-/* */
-
-#s3 {
-    scroll-snap-align: start;
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-}
-
-/*Section 4 */
-/* */
-/* */
-
-#s4 {
-    scroll-snap-align: start;
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-}
 
 

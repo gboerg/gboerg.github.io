@@ -3,15 +3,20 @@
 
 <head>
   <title> Meine Referenzen | Jan Gerstenberg </title>
-  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" href="mobile.css" type="text/css">
   <link rel="stylesheet" href="darkmode.css" type="text/css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <script src="/darkmode.js"></script>
-  <script src="/nav.js"></script>
+  <script src="/darkmode.js" defer></script>
+  <script src="/nav.js" defer></script>
+  <script src="/script.js" defer></script>
 </head>
 
 <body>
@@ -20,24 +25,22 @@
   <nav class="nav">
     <div class="container">
       <ul class="nav-list">
-        <li><a href="#s0" ><i class="fas"></i><span> Jan G.</span></a></li>
+        <li class="nav-item1"><a href="#jang" class="nav-link" ><i class="fas"></i><span class="span-item"> Jan G.</span></a></li>
 
-        <li><a href="#s1"><i class="fas"></i><span>Projects</span></a></li>
+        <li class="nav-item2"><a href="#projects" class="nav-link"><i class="fas"></i><span class="span-item">Projects</span></a></li>
 
-        <li><a href="#s2"><i class="fas"></i><span>Planned Projects</span></a></li>
+        <li class="nav-item3"><a href="#plannedprojects" class="nav-link"><i class="fas"></i><span class="span-item">Planned Projects</span></a></li>
 
-        <li><a href="#s3"><i class="fas"></i><span>About Me</span></a></li>
+        <li class="nav-item4"><a href="#aboutme" class="nav-link"><i class="fas"></i><span class="span-item">About Me</span></a></li>
 
-        <li><a href="#footer"><i class="fas"></i><span>Go To Footer</span></a></li>
+        <li class="nav-item5"><a href="#footer" class="nav-link"><i class="fas"></i><span class="span-item">Go To Footer</span></a></li>
 
       </ul>
-    
     </div>
-
   </nav>
 
 
-  <section id="s0">
+  <section id="jang" class="section" >
     <header class="head">
       <p>
         Welcome, glad to see ya on my new Website :> 
@@ -67,75 +70,65 @@
     </header>
   </section>
 
-    <section id="s1">
+  <section id="projects" class="section">
 
-      <header class="head">
-        <p>Some Projects</p>
-      </header>
+    <header class="head">
+      <p>Some Projects</p>
+    </header>
       
 
-      <div class="innerdivs1">
-        <section class="insec1">
-          <img src="/bilder/gboergweb.jpg" alt="Preview-IMG">
-          <span class="insec1-item"> The Current Website</span>
-        </section>
-
-        <section class="insec1">
-          
-            <img src="/bilder/byCoba.jpg" alt="Preview-IMG">
-            <span class="insec1-item"> byCoba.github.io</span>
-        </section>
-
-        <section class="insec1">
-          <img src="/bilder/emd.jpg" alt="Preview-IMG">
-          <span class="insec1-item"> Erfahren-mit-daten.de</span>
-        </section>
-
-        <section class="insec1">
-          <img src="/bilder/Placeholder.jpg" alt="Preview-IMG">
-          <span class="insec1-item"> Placeholder</span>
-        </section>
-
+    <div class="innerdivs1">
+      <div class="insec1">
+        <img src="/bilder/gboergweb.jpg" alt="Preview-IMG">
+        <span class="insec1-item"> The Current Website</span>
       </div>
 
+      <div class="insec1">
+          
+        <img src="/bilder/byCoba.jpg" alt="Preview-IMG">
+        <span class="insec1-item"> byCoba.github.io</span>
+      </div>
 
+      <div class="insec1">
+        <img src="/bilder/emd.jpg" alt="Preview-IMG">
+        <span class="insec1-item"> Erfahren-mit-daten.de</span>
+      </div>
+
+      <div class="insec1">
+        <img src="/bilder/Placeholder.jpg" alt="Preview-IMG">
+        <span class="insec1-item"> Placeholder</span>
+      </div>
+
+      </div>
     </section>
     
-    <section id="s2">
-      <header class="head">
-        <p>
-          No programming projects in planning phase 
-        </p>
-      </header>
-    </section>
+  <section id="plannedprojects" class="section">
+    <header class="head">
+      <p>
+        No programming projects in planning phase 
+      </p>
+    </header>
+  </section>
 
-    <section id="s3">
-      <header class="head">
-        <p>
-          About Me
-        </p>
+  <section id="aboutme" class="section">
+    <header class="head">
+      <p>
+        About Me
+      </p>
       </header>
-    </section>
+  </section>
 
-    <section id="s4">
-      <header class="head">
-        <p>
-          Footer Should be here 
-        </p>
-      </header>
-    </section>
-    
+
+
+  <section id="footer" class="section">
+    <header class="head">
+      <p>
+        test
+      </p>
+    </header>
+  </section>
+
 </body>
-
-  <footer>
-
-
-  </footer>
-
-
-
-
-
 </html>
 
 
