@@ -83,7 +83,7 @@ window.addEventListener('scroll', () => {
     }
     else {
         console.log("footer");
-        document.querySelector('.nav-ittem5').setAttribute("class", "active");
+        document.querySelector('.nav-item5').setAttribute("class", "active");
         document.querySelector('.nav-item4', '.nav-item2', '.nav-item3', '.nav-item1').removeAttribute("class", "active");
 
         
