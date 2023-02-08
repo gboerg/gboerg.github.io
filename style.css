@@ -49,7 +49,7 @@ nav {
     color: azure;
 }
 
-
+/*
 
 .nav-item1.active .nav-link{
     background-color: crimson;
@@ -71,7 +71,12 @@ nav {
     background-color: crimson;
     transition: 0.3 ease background color;
 }
+*/
 
+.active{
+    background-color: crimson;
+    transition: 0.3 ease background color;
+}
 .fas {
     position: relative;
     width: 70px;
