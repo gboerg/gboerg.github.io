@@ -2,10 +2,10 @@
 @media  (min-width: 300px ) {
     nav {
         color: aqua;
-        width: 20%;
+        width: 10%;
     }
     nav:hover {
-        width: 20%;
+        width: 10%;
     }
 nav li {
     font-size: 0.1rem;
@@ -22,15 +22,12 @@ nav span {
         padding-top: 2rem;
     }
 
-    .innerdivs1 {
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        border-color: aquamarine;
-        border: 40px;
-        background-color: aqua;
-    
+   
+
+    nav a{
+        width: 72px;
     }
+
     } 
 
 
@@ -54,15 +51,7 @@ nav span {
         padding-top: 5rem;
     }
 
-    .innerdivs1 {
-        height: 50vh;
-        display: flex;
-        flex-direction: row;
-        border-color: aquamarine;
-        border: 40px;
-        background-color: aqua;
-    
-    
-    } 
-
+    nav a{
+        width: 165px;
+    }
 }
