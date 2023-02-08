@@ -1,106 +1,4 @@
-/*Websettings*/
-/* */
-/* */
-
-::-webkit-scrollbar {
-    display: none;    
-}
-
-/*General Settings*/
-/* */
-/* */
-
-html {
-    scroll-snap-type: y mandatory;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-/*Navbar*/
-/* */
-/* */
-
-.container {
-    position: fixed;
-}
-
-nav {
-    position: sticky;
-    display: flex;
-    float: left;
-    height: 500vh;
-    top: 0;
-    bottom: 0;
-    width: 10%;
-    left: 0;
-    right: 0;
-    background: #1a1a1a; 
-    overflow: hidden;
-    transition: width 0.2s linear;
-    box-shadow: 0 20px 35px rgba(red, green, blue, alpha);
-    color: azure;
-}
-
-
-.active{
-    background-color: crimson;
-    transition: 0.3 ease background color;
-}
-.fas {
-    position: relative;
-    width: 60px;
-    height: 40px;
-    top: 14px;
-    font-size: 20px;
-    text-align: center;
-}
-
-
-.span-item {
-    position: relative;
-    margin-left: 10px;
-}
-
-a:hover {
-    background: #eee;
-}
-
-nav:hover {
-    width: 380px;
-    transition: all 0.5s ease;
-}
-
-nav a{
-    position: relative;
-    color: white;
-    font-size: 14px;
-    display: table;
-    width: 70px;
-    padding-top:5px; 
-    padding-bottom:5px;
-}
-/* General Section Settings*/
-/* */
-/* */
-
-section {
-    height: 100vh;
-    scroll-snap-align: start;
-    scroll-snap-type: y mandatory;
-}
-
-/* Projects Display 2nd Section*/
-/* */
-/* */
-
+@import('html')
 .cards {
     display:flex;
     flex-wrap: wrap;
@@ -110,20 +8,15 @@ section {
     gap: 0.5rem;
     width: 90%;
     padding: 2rem;
-    --yPos: 150px; 
-    --xPos: 150px; 
-}
-.card {
-    width: 20rem;
-    height: 15rem;
-    background:radial-gradient(
-        circle at var(--xPos) var(--yPos),
-        rgba(255,255,255)
-        transparent 0%
-    );
-    border-radius: 0.5rem;
 
+    .card {
+        width: 20rem;
+        height: 15rem;
+        background-color: red;
+    
+    }
 }
+
 
 
 

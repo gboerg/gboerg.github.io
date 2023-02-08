@@ -97,34 +97,6 @@ section {
     scroll-snap-type: y mandatory;
 }
 
-/* Projects Display 2nd Section*/
-/* */
-/* */
-
-.cards {
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    width: 90%;
-    padding: 2rem;
-    --yPos: 150px; 
-    --xPos: 150px; 
-}
-.card {
-    width: 20rem;
-    height: 15rem;
-    background:radial-gradient(
-        circle at var(--xPos) var(--yPos),
-        rgba(255,255,255)
-        transparent 0%
-    );
-    border-radius: 0.5rem;
-
-}
-
 
 
 
