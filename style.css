@@ -39,7 +39,7 @@ nav {
     height: 500vh;
     top: 0;
     bottom: 0;
-    width: 10%;
+    width: 75px;
     left: 0;
     right: 0;
     background: #1a1a1a; 
@@ -106,8 +106,9 @@ a{
     color: white;
     font-size: 14px;
     display: table;
-    width: 150px;
-    padding: 10px;
+    width: 75px;
+    padding-top:5px; 
+    padding-bottom:5px;
 }
 
 section {

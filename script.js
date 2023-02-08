@@ -1,5 +1,5 @@
-/*
 
+/*
 const section = document.querySelectorAll(".section");
 const navitem = document.querySelectorAll(".nav-item1", "nav-item2", "nav-item3", "nav-item4", "nav-item5");
 
