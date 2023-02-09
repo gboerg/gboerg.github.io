@@ -7,11 +7,18 @@
     gap: 0.5rem;
     width: 90%;
     padding: 2rem;
+    --yPos:100px;
+    --xPos:100px;
 
     .card {
         width: 20rem;
         height: 15rem;
-        background-color: red;
+        background: radial-gradient(
+        100rem circle at var(--xPos) var(--yPos),
+        crimson,
+        transparent 15%
+        );
+        border-radius: 0.5rem;
     
     }
 }
