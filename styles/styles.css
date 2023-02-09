@@ -1,0 +1,15 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 90%;
+  padding: 2rem;
+}
+.cards .card {
+  width: 20rem;
+  height: 15rem;
+  background-color: red;
+}/*# sourceMappingURL=styles.css.map */
