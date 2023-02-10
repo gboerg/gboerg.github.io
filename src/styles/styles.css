@@ -7,7 +7,7 @@
   gap: 0.5rem;
   width: 90%;
   padding: 2rem;
-  --yPos:100px;
+  --yPos:150px;
   --xPos:100px;
 }
 .cards .card {

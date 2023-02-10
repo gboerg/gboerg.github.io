@@ -1,0 +1,1 @@
+import {defineconfig} from 'vite'
