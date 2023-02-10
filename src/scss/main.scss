@@ -1,6 +1,7 @@
 /*Websettings*/
 /* */
 /* */
+@import "preset";
 
 ::-webkit-scrollbar {
     display: none;    
@@ -45,7 +46,7 @@ nav {
     background: #1a1a1a; 
     overflow: hidden;
     transition: width 0.2s linear;
-    box-shadow: 0 20px 35px rgba(red, green, blue, alpha);
+    box-shadow: 0 20px 35px;
     color: azure;
 }
 
@@ -56,7 +57,7 @@ nav {
 }
 .fas {
     position: relative;
-    width: 60px;
+    width: 70px;
     height: 40px;
     top: 14px;
     font-size: 20px;
@@ -83,7 +84,7 @@ nav a{
     color: white;
     font-size: 14px;
     display: table;
-    width: 70px;
+    width: 150px;
     padding-top:5px; 
     padding-bottom:5px;
 }
@@ -95,6 +96,8 @@ section {
     height: 100vh;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
+    text-align: center;
+    padding: 5rem;
 }
 
 
