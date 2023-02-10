@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #222;
+    }
+
+    p {
+        color: white;
+
+    }
+
+  }
