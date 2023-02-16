@@ -9,16 +9,32 @@
     padding: 2rem;
     --yPos:150px;
     --xPos:100px;
-
+    &:hover{
+        .card {
+            width: 20rem;
+            height: 15rem;
+            background: radial-gradient(
+            100rem circle at var(--xPos) var(--yPos),
+            crimson,
+            transparent 16%
+            );
+    }}
     .card {
         width: 20rem;
         height: 15rem;
         background: radial-gradient(
         100rem circle at var(--xPos) var(--yPos),
         crimson,
-        transparent 15%
+        transparent 0%
         );
         border-radius: 0.5rem;
+        .card-content {
+            background-color: #13161c;
+            border-radius: inherit;
+            transition: all 0.25s;
+            height: calc(100% - 0.1rem);
+            width: calc(100% - 0.1rem);
+        }
     
     }
 }
