@@ -1,0 +1,1 @@
+The website will not be displayed correctly when using Galaxy Fold 

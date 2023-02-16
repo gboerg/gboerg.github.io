@@ -5,7 +5,7 @@
         width: 20%;
     }
     nav:hover {
-        width: 10%;
+        width: 20%;
     }
 nav li {
     font-size: 0.1rem;
@@ -32,7 +32,7 @@ nav span {
 
 
 
-@media  (min-width: 1000px ) {
+@media  (min-width: 1000px ){
     nav {
         color: red;
         width: 10%;
