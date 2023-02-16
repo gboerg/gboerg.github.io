@@ -5,15 +5,15 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  width: 90%;
+  width: 80%;
   padding: 2rem;
 }
 .cards:hover .card {
   background: radial-gradient(100rem circle at var(--xPos) var(--yPos), rgba crimson, 1, transparent 15%);
 }
 .cards .card {
-  width: 20rem;
-  height: 15rem;
+  width: 16rem;
+  height: 12rem;
   background: radial-gradient(100rem circle at 0 0, rgba crimson, 0, transparent 0%);
   border-radius: 0.5rem;
   display: flex;

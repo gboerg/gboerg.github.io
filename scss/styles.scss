@@ -9,7 +9,7 @@ $second: crimson;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    width: 90%;
+    width: 80%;
     padding: 2rem;
     &:hover {
         .card {        
@@ -22,8 +22,8 @@ $second: crimson;
         }
     }
     .card {
-        width: 20rem;
-        height: 15rem;
+        width: 16rem;
+        height: 12rem;
         background: radial-gradient(
         100rem circle at 0 0,
         rgba ($second, 0),

@@ -2,7 +2,7 @@
 @media  (min-width: 300px ) {
     nav {
         color: aqua;
-        width: 10%;
+        width: 20%;
     }
     nav:hover {
         width: 10%;
@@ -19,7 +19,7 @@ nav span {
 
     .head {
         text-align: center;
-        padding-top: 2rem;
+        padding-top: 0.5rem;
     }
 
    
