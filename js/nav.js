@@ -1,3 +1,36 @@
+/*const makeNavLinksSmooth = ( ) => {
+    const navLinks = document.querySelectorAll(".nav-item1", "nav-item2", "nav-item3", "nav-item4", "nav-item5");
+
+  
+    for ( let n in navLinks ) {
+      if ( navLinks.hasOwnProperty( n ) ) {
+        navLinks[ n ].addEventListener( 'click', e => {
+          e.preventDefault( );
+          document.querySelector( navLinks[ n ].hash );
+        } );
+      }
+    }
+  }
+  
+  const spyScrolling = ( ) => {
+    const sections = document.querySelectorAll( '.scrollsec' );
+  
+    window.onscroll = ( ) => {
+      const scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
+  
+      for ( let s in sections )
+        if ( sections.hasOwnProperty( s ) && sections[ s ].offsetTop <= scrollPos ) {
+          const id = sections[ s ].id;
+          document.querySelector( '.active' ).classList.remove( 'active' );
+          document.querySelector( `a[href*=${ id }]` ).classList.add( 'active' );
+        }
+    } 
+  }
+  
+  makeNavLinksSmooth( );
+  spyScrolling( );
+  */
+
   (function() {
     'use strict';
   
