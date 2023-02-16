@@ -99,8 +99,9 @@ section {
     scroll-snap-type: y mandatory;
 }
 
-
-
+.cc {
+    text-align: center;
+} 
 
 
 
