@@ -15,6 +15,5 @@ wrapper.addEventListener('mousemove', function ($event) {
         card.style.setProperty('--xPos', `${x} px`);
         card.style.setProperty('--yPos', `${y} px`);
     });
-    
 });
 
