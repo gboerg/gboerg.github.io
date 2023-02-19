@@ -1,4 +1,4 @@
-/*import sheet from './../scss/styles.css' assert { type: 'css' };
+import sheet from './../scss/styles.css' assert { type: 'css' };
 document.adoptedStyleSheets = [sheet];
 
 const wrapper = document.querySelector('.cards');
@@ -17,4 +17,3 @@ wrapper.addEventListener('mousemove', function ($event) {
     });
 });
 
-*/
