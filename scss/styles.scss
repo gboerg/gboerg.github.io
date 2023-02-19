@@ -37,26 +37,8 @@ $second: crimson;
         align-items: center;
         &:hover {
             transform: scale(0.97);
-            /*&:before{
-                opacity: 1;
-            }*/
         }
-        /*&:before {
-            content: "";
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            border-radius: inherit;
-            background: radial-gradient(
-                60rem circle at var(--xPos) var(--yPos),
-                rgba ($second, 0.1)
-                transparent 35%
-            );
-            opacity: 0;
-            transition: all 0.15s ease-in-out;
-        }*/
+       
         .card-content {
             background-color: #13161c;
             border-radius: inherit;
