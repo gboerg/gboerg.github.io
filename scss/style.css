@@ -13,8 +13,9 @@
 /* */
 
 html {
-    scroll-snap-type: y mandatory;
     scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+
     
 }
 
@@ -97,8 +98,9 @@ nav a{
 
 section {
     height: 100vh;
-    scroll-snap-type: y proximity;
     scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+
 }
 
 .cc {
