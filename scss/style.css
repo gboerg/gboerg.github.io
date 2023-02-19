@@ -78,10 +78,10 @@ a:hover {
     background: #eee;
 }
 
-nav:hover {
+/*nav:hover {
     width: 380px;
     transition: all 0.5s ease;
-}
+}*/
 
 nav a{
     position: relative;
