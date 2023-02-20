@@ -1,37 +1,14 @@
-/*const makeNavLinksSmooth = ( ) => {
-    const navLinks = document.querySelectorAll(".nav-item1", "nav-item2", "nav-item3", "nav-item4", "nav-item5");
+const body = document.querySelector("body"),
+  sidebar = body.querySelector(".nav"),
+  toggle = body.querySelector(".toggle");
 
-  
-    for ( let n in navLinks ) {
-      if ( navLinks.hasOwnProperty( n ) ) {
-        navLinks[ n ].addEventListener( 'click', e => {
-          e.preventDefault( );
-          document.querySelector( navLinks[ n ].hash );
-        } );
-      }
-    }
-  }
-  
-  const spyScrolling = ( ) => {
-    const sections = document.querySelectorAll( '.scrollsec' );
-  
-    window.onscroll = ( ) => {
-      const scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
-  
-      for ( let s in sections )
-        if ( sections.hasOwnProperty( s ) && sections[ s ].offsetTop <= scrollPos ) {
-          const id = sections[ s ].id;
-          document.querySelector( '.active' ).classList.remove( 'active' );
-          document.querySelector( `a[href*=${ id }]` ).classList.add( 'active' );
-        }
-    } 
-  }
-  
-  makeNavLinksSmooth( );
-  spyScrolling( );
-  */
+ toggle.addEventListener("click", () => {
+  sidebar.classList.toggle("close");
+ });
 
-  (function() {
+
+
+(function() {
     'use strict';
   
     var section = document.querySelectorAll(".section");
