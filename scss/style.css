@@ -96,12 +96,14 @@ nav a{
 nav div i.toggle{
     position: absolute;
     top: 250%;
-    right: 80%;
+    right: 70%;
     transform: translateY(-50%);
-    height:25px;
-    width: 25px;
+    height:40px;
+    width: 40px;
     align-items: center;
     background: crimson;
+    border-radius: 1%;
+    border-color: #eee;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,5 +134,8 @@ section {
     text-align: center;
 } 
 
+.div {
+    padding-left: 1rem;
+}
 
 

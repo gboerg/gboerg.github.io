@@ -4,3 +4,16 @@
     }
 
 }
+
+@media (min-width: 992px) {
+
+    .nav.close {
+        width: 10%;
+    }
+    .nav.close ul {
+        opacity: 1;
+    }
+    nav div i.toggle {
+        display: none;
+    }
+}
