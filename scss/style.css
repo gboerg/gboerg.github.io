@@ -120,6 +120,12 @@ nav div i.toggle{
 /* General Section Settings*/
 /* */
 /* */
+
+.me {
+padding-top: 2%;
+height: 10rem;
+width: auto;
+}
 header {
     text-align: center;
     padding-top: 1rem;
