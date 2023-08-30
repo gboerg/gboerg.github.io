@@ -125,6 +125,8 @@ nav div i.toggle{
 padding-top: 2%;
 height: 10rem;
 width: auto;
+justify-content: center;
+
 }
 header {
     text-align: center;
