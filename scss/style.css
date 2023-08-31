@@ -57,7 +57,7 @@ nav {
 
 
 .active{
-    background-color: crimson;
+    background-color: purple;
     transition: 0.3 ease background color;
 }
 .fas {
@@ -102,7 +102,7 @@ nav div i.toggle{
     height:40px;
     width: 40px;
     align-items: center;
-    background: crimson;
+    background: purple;
     border-radius: 1%;
     border-color: #eee;
     display: flex;
@@ -149,3 +149,34 @@ section {
 }
 
 
+#smallintro {
+    font-size: 3rem;
+}
+
+#changing-text {
+    color: purple;
+    font-size: 3rem;
+}
+
+@keyframes textChange {
+    0% {
+      content: "Gamer";
+    }
+    25% {
+      content: "Developer";
+    }
+    50% {
+      content: "Creator";
+    }
+    75% {
+      content: "Illustator";
+    }
+    100% {
+      content: "Designer";
+    }
+  }
+  
+  #changing-text::before {
+    content: "Gamer";
+    animation: textChange 10s infinite;
+  }
